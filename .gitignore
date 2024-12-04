@@ -1,11 +1,22 @@
 # Xojo (formerly REALbasic and Real Studio)
 
 Builds*
+BuildPath*
+DebugPath*
 *.debug
 *.debug.app
-Debug*.exe
-Debug*/Debug*.exe
-Debug*/Debug*\ Libs
+Debug*
 *.rbuistate
 *.xojo_uistate
-*.obsolete*
+*obsolete*
+app.config
+*errors*.txt
+*errors*.csv
+*errors*.json
+*.zip
+*.log
+*.csv
+DB/desktop.ini
+*WhoAmI.txt
+*.bak
+*.lnk

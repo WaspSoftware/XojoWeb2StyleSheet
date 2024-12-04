@@ -1,0 +1,122 @@
+
+/* Labels */
+.WASPWebLabel label {
+    background-color: blue;
+	border-radius: 3px;
+	padding-left: 3px;
+}
+
+.WASPWebLabel label span {
+    color: white;
+}
+
+.WASPWebLabelDanger label {
+    background-color: red;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.WASPWebLabelDanger label span {
+    color: white;
+}
+
+.WASPWebLabelGreen label {
+    background-color: Green;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.WASPWebLabelDanger label span {
+    color: white;
+}
+
+.WASPWebLabelMandatory {
+    background-color: gray;
+	border-radius: 3px;
+}
+
+.WASPWebLabelMandatory label span {
+    color: white;
+}
+
+/* Text Fields */
+.WASPWebTextField input{
+    background-color: white;
+    color: black;
+	border-radius: 3px;
+    border: 1px solid black;
+	font-size: 10pt;
+}
+.WASPWebTextArea input{
+    color: black;
+	border-radius: 3px;
+    border: 1px solid black;
+	font-size: 10pt;
+}
+
+/* Popup menus */
+.WASPWebPopupMenu{
+    background-color: white;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+.WASPWebPopupMenu button{
+    background-color: white;
+	background: white;
+	padding: 0px 8px;
+	vertical-align:top;
+}
+
+.WASPWebPopupMenu span{
+    vertical-align:top;
+	top: 0px!important;
+}
+
+
+/* this controls the colours of ALL drop down menus */
+.dropdown-menu .dropdown-item{
+    background-color: green;	
+}
+
+.dropdown-menu .active{
+    background-color: red;	
+}
+
+
+.WASPWebDatePicker{
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+/* this controls the font size for ALL date pickers */
+.datepicker{
+	font-size:10pt;
+}
+
+/* Buttons */
+.WASPWebButton{
+    background: linear-gradient(0deg,rgba(222,222,222,0.15)0%,rgba(200,200,200,0.15)20%,rgba(200,200,200,0.15)80%,rgba(222,222,222,0.15)100%);
+	border-radius: 3px;
+}
+
+.WASPWebButtonDefault{
+    background: linear-gradient(0deg,rgba(222,222,222,0.15)0%,rgba(200,200,200,0.15)20%,rgba(200,200,200,0.15)80%,rgba(222,222,222,0.15)100%);
+	border-radius: 3px;
+}
+
+/* Check Box */
+.WASPWebCheckBox label{
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+
+/* Buttons */
+.WASPWebButton{
+    background: linear-gradient(0deg,rgba(222,222,222,0.15)0%,rgba(200,200,200,0.15)20%,rgba(200,200,200,0.15)80%,rgba(222,222,222,0.15)100%);
+	border-radius: 3px;
+}
+
+
